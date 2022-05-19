@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 197, 35);
+}
+#imagen1{
+    width: 1092px;
+    height: 350px;
+    background: url("../imagenes/bosque2.jpg");
+    margin: auto
+}
+#garden{
+    width: 1092px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.596);
+    text-decoration: none;
+    text-align:right;
+    color: aliceblue;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    text-align: left;
+    padding: 15px;
+    font-size: 25px;
+}
+#contenedor{
+    width: 1000px;
+    background-color: darkorchid;
+    margin: auto;
+    display: flex;
+
+}
+#principal{
+    width: 800px;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    margin: auto; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    position: relative;
+    top: -70px;
+    right: -146px;
+    border-radius: 15px 15px;
+   
+
+}
+.contenido2{
+    width: 290px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(2, 252, 15);
+    font-size: 25px;
+    position: relative;
+    padding: 10px;
+    top: -840px;
+    right: 290px;
+    border-radius: 5px 5px;
+
+}
+.contenido{
+    width: 290px;
+    height: 60px;
+    background-color: rgb(121, 248, 116);
+    text-decoration: none;
+    outline: 1px solid rgb(167, 197, 35);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    padding: 10px;
+    top: -850px;
+    right: 290px;
+    border-radius: 5px 5px;
+  
+}
+#principal2{
+    background: crimson;
+    width: 500px;
+
+}
+#imagen2{
+    width: 250px;
+    height: 280px;
+    background: url("../imagenes/frutas.jpg");
+    background-size: cover;
+    position: relative;
+    top: 00px;
+    right: -30px;
+    border-radius: 3px 3px;
+}
+#texto1{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: -230px;
+    right: -350px;
+}
+#productos{
+    width: 100%;
+    right: 40px;
+    text-align: left;
+    padding: 30px;
+}
+.hijo{
+    width: 750px;
+    height: 600px;
+    background: url("https://www.youtube.com/watch?v=TcvrM_GwKyQ&ab_channel=HistoriasdeLuz");
+    position: relative;
+    top: -80px;
+    right: -20px;
+}
+
